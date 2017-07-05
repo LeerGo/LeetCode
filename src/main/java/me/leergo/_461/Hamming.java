@@ -6,6 +6,7 @@ package me.leergo._461;
 public class Hamming {
     public static void main(String[] args) {
 
-        System.out.println(new Solution().hammingDistance(1, 4));
+//        System.out.println(new Solution().hammingDistance(1, 4));
+        System.out.println(Integer.bitCount(1^4));
     }
 }

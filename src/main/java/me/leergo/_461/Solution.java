@@ -58,19 +58,9 @@ public class Solution {
     }
 
     /*
-    位运算 最优解 
+    位运算 最优解
     public int hammingDistance(int x, int y) {
-        public int hammingDistance(int x, int y) {
-            int z = x^y;
-            int count = 0;
-            while(z!=0)
-            {
-                z = (z-1)&z;
-                count++;
-            }
-            return count;
-
-        }
+        return Integer.bitCount(x^y);
     }
     */
 
