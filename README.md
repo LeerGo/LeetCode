@@ -18,3 +18,6 @@
 8. 419 Battleships in a Board
     - DFS
     - 计算临边是否存有战船 X
+9. 344 Reverse String
+    - StringBuilder(s).reverse()
+    - char[] 内部自翻转
