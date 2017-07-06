@@ -21,3 +21,4 @@
 9. 344 Reverse String
     - StringBuilder(s).reverse()
     - char[] 内部自翻转
+10. 412 Fizz Buzz
