@@ -30,3 +30,5 @@
     - 思路很有意思
 14. 292 NimGame
     - 找寻规律，思路转化
+15. 442 find all duplicates in an array
+    - 主要与原始数据的 index 进行关联
