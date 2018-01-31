@@ -1,4 +1,4 @@
-package me.leergo.easy._187;
+package me.leergo.medium._187;
 
 import java.util.ArrayList;
 import java.util.HashSet;
