@@ -1,4 +1,4 @@
-package me.leergo.easy._419;
+package me.leergo.medium._419;
 
 /**
  * <h1>419. Battleships in a Board</h1>

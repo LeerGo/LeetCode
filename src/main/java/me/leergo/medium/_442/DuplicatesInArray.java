@@ -1,4 +1,4 @@
-package me.leergo.easy._442;
+package me.leergo.medium._442;
 
 /**
  * Created by Xoder on 2017/7/6.

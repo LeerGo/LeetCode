@@ -1,4 +1,4 @@
-package me.leergo.easy._442;
+package me.leergo.medium._442;
 
 import java.util.ArrayList;
 import java.util.List;

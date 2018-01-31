@@ -1,4 +1,4 @@
-package me.leergo.easy._537;
+package me.leergo.medium._537;
 
 /**
  * <h1>537. Complex Number Multiplication</h1>
