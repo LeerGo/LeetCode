@@ -35,7 +35,7 @@
 //特别感谢 @ts 添加此问题并创建所有测试用例。 
 // Related Topics 数学
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 public class ExcelSheetColumnNumber_171 {
     public static void main(String[] args) {
