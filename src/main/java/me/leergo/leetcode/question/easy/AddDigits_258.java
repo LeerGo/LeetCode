@@ -14,7 +14,7 @@
 // Related Topics 数学 
 // 👍 276 👎 0
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 public class AddDigits_258 {
     public static void main(String[] args) {
