@@ -23,7 +23,7 @@
 // Related Topics 二分查找 
 // 👍 81 👎 0
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 public class GuessNumberHigherOrLower_374 {
     public static void main(String[] args) {
