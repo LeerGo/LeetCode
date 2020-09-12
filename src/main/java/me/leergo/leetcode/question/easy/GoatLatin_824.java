@@ -41,7 +41,7 @@
 // Related Topics 字符串
 // 👍 46 👎 0
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 public class GoatLatin_824 {
     public static void main(String[] args) {
