@@ -37,7 +37,7 @@
 // 
 // 👍 50 👎 0
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 public class LicenseKeyFormatting_482 {
     public static void main(String[] args) {
