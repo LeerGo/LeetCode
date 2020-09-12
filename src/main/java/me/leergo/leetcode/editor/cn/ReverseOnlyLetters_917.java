@@ -42,8 +42,8 @@ package me.leergo.leetcode.editor.cn;
 public class ReverseOnlyLetters_917 {
     public static void main(String[] args) {
         Solution solution = new ReverseOnlyLetters_917().new Solution();
-//        System.out.println(solution.reverseOnlyLetters("7_28"));
-                System.out.println(solution.reverseOnlyLetters("Test1ng-Leet=code-Q!"));
+        System.out.println(solution.reverseOnlyLetters("7_28"));
+        //        System.out.println(solution.reverseOnlyLetters("Test1ng-Leet=code-Q!"));
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -52,14 +52,17 @@ public class ReverseOnlyLetters_917 {
             char[] chars = S.toCharArray();
             int left = 0;
             int right = chars.length - 1;
+            boolean f1;
+            boolean f2;
             
             while (left < right) {
-                boolean f1 = Character.isLetter(chars[left]);
-                boolean f2 = Character.isLetter(chars[right]);
-                if (f1 && f2) swap(chars, left, right);
-                if (f1) right--;
-                if (f2) left++;
-                if (!f1 && !f2) {
+                f1 = Character.isLetter(chars[left]);
+                f2 = Character.isLetter(chars[right]);
+                
+                if (!f1) left++;
+                if (!f2) right--;
+                if (f1 && f2) {
+                    swap(chars, left, right);
                     right--;
                     left++;
                 }
