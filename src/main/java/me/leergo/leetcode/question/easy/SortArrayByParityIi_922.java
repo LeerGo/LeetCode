@@ -29,7 +29,7 @@
 // Related Topics 排序 数组 
 // 👍 119 👎 0
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 import java.util.Arrays;
 
