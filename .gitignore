@@ -3,3 +3,4 @@
 /.gradle
 .DS_Store
 /out
+/src/main/java/me/leergo/leetcode/editor/cn/all.json
