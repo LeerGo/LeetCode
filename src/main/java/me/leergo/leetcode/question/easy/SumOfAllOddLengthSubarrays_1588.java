@@ -47,7 +47,7 @@
 // Related Topics 数组 
 // 👍 10 👎 0
 
-package me.leergo.leetcode.editor.cn;
+package me.leergo.leetcode.question.easy;
 
 public class SumOfAllOddLengthSubarrays_1588 {
     public static void main(String[] args) {
