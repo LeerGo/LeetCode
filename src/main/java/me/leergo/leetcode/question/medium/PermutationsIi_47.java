@@ -20,18 +20,44 @@
 package me.leergo.leetcode.question.medium;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class PermutationsIi_47 {
     public static void main(String[] args) {
-        Solution solution = new PermutationsIi_47().new Solution();
+        Solution solution = new Solution();
         System.out.println(solution.permuteUnique(new int[]{1, 1, 2}));
     }
     
+    static class Solution {
+        boolean[] isUse;
+        List<Integer> track = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        
+        public List<List<Integer>> permuteUnique(int[] nums) {
+            isUse = new boolean[nums.length + 1];
+            backtrack(nums);
+            return res;
+        }
+        
+        private void backtrack(int[] nums) {
+            if (track.size() == nums.length && !res.contains(track))
+                res.add(new ArrayList<>(track));
+            
+            for (int i = 0; i < nums.length; i++) {
+//                if (track.contains(nums[i])) continue;
+                if (isUse[i]) continue;
+                
+                track.add(nums[i]);
+                isUse[i] = true;
+                backtrack(nums);
+                track.remove(track.size() - 1);
+                isUse[i] = false;
+            }
+        }
+    }
+    
     //leetcode submit region begin(Prohibit modification and deletion)
-    class Solution {
+    /*class Solution {
         boolean[] isUse;
         List<List<Integer>> res = new ArrayList<>();
         
@@ -59,7 +85,7 @@ public class PermutationsIi_47 {
                 isUse[i] = false;
             }
         }
-    }
+    }*/
     //leetcode submit region end(Prohibit modification and deletion)
     
 }
