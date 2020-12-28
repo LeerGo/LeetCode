@@ -44,7 +44,6 @@ public class PermutationsIi_47 {
                 res.add(new ArrayList<>(track));
             
             for (int i = 0; i < nums.length; i++) {
-//                if (track.contains(nums[i])) continue;
                 if (isUse[i]) continue;
                 
                 track.add(nums[i]);
